@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90831" started-at="2020-06-01T20:45:57 ICT" finished-at="2020-06-01T20:47:28 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90831" started-at="2020-06-01T20:45:57 ICT" finished-at="2020-06-01T20:47:28 ICT">
+      <class name="com.example.demo.controller.UserControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="109" started-at="2020-06-01T20:45:58 ICT" finished-at="2020-06-01T20:45:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="87720" started-at="2020-06-01T20:45:58 ICT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-01T20:47:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="21" started-at="2020-06-01T20:47:26 ICT" finished-at="2020-06-01T20:47:26 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.controller.UserControllerTest.PerformApiUserWithParams_Then_ReturnAUser2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="init" is-config="true" duration-ms="525" started-at="2020-06-01T20:47:26 ICT" finished-at="2020-06-01T20:47:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="PerformApiUserWithParams_Then_ReturnAUser2()[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="PerformApiUserWithParams_Then_ReturnAUser2" duration-ms="2077" started-at="2020-06-01T20:47:26 ICT" finished-at="2020-06-01T20:47:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformApiUserWithParams_Then_ReturnAUser2 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="22" started-at="2020-06-01T20:47:28 ICT" finished-at="2020-06-01T20:47:28 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.controller.UserControllerTest.PerformApiUserWithParams_Then_ReturnAUser2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.example.demo.controller.UserControllerTest@2053d869]" name="springTestContextAfterTestClass" is-config="true" duration-ms="2" started-at="2020-06-01T20:47:28 ICT" finished-at="2020-06-01T20:47:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.example.demo.controller.UserControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

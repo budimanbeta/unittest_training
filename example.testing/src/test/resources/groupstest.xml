@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+	<!-- @BeforeTest -->
+	<test name="databaseTest">
+	<groups>
+			<run>
+				<include name="database" />
+			</run>
+		</groups>
+	
+	  <classes>
+		<class name="example.testing.testngfeatures.TestGroup1" />
+		<class name="lexample.testing.testngfeatures.TestGroup2" />
+	  </classes>
+	</test>
+	<!-- @AfterTest -->
+	
+	
+	
+</suite>
+<!-- @AfterSuite -->

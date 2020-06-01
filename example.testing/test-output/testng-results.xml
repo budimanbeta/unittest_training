@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="337" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="337" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+      <class name="example.testing.behaviour.BankAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="35" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBalance()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="testBalance" duration-ms="37" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBalance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="1" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeposit()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="testDeposit" duration-ms="6" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="2" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithdraw()[pri:0, instance:example.testing.behaviour.BankAccountTest@6fc6f14e]" name="testWithdraw" duration-ms="9" started-at="2020-06-01T22:02:14 ICT" finished-at="2020-06-01T22:02:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw -->
+      </class> <!-- example.testing.behaviour.BankAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

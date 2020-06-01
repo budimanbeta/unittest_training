@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @BeforeSuite -->
+<suite name="Repository_Fake_Testing_All">
+
+
+	<test name="Person_Repository_Case">
+	  <classes>
+		<class name="com.example.demo.repository.PersonRepositoryTest" />
+	  </classes>
+	</test>
+
+	
+	
+</suite>
+<!-- @AfterSuite -->

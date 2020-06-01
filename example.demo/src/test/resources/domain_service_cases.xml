@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @BeforeSuite -->
+<suite name="UnitTesting_All">
+
+
+	<test name="UserManagement_Case">
+	  <classes>
+		<class name="com.example.demo.service.MockDependenciesUserServiceImplTest" />
+		<class name="com.example.demo.service.TransformServiceTest" />
+		<class name="com.example.demo.service.MockUserServiceImplTest" />
+	  </classes>
+	</test>
+
+	
+	
+</suite>
+<!-- @AfterSuite -->

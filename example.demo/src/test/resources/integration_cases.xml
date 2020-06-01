@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @BeforeSuite -->
+<suite name="IntegrationTest_All">
+
+
+	<test name="User_Service_Integration_Case">
+	  <classes>
+		<class name="com.example.demo.service.UserServiceIntegrationTest" />
+	  </classes>
+	</test>
+
+	
+	
+</suite>
+<!-- @AfterSuite -->
